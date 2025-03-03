@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  background-color: #F5EBDC;
+  font-family: 'Inter' , sans-serif;
+}
+
+
+h1{
+  color: #D42401;
+  font-family: Inter, sans-serif;
+  font-weight: 800;
+  
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background-color: #FED8B5;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #D42401;
+}
+
+.codigo-gerado {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+.footer {
+  background-color: #F5EBDC;
+  padding: 40px 0;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+.footer .container {
+  max-width: 100%;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+
+.copyright {
+  color: #502314;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+
+.built-by {
+  color: #FE9738;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+
+.developer-name {
+  color: #FE9738;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
+
+.for-the {
+  color: #FE9738;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+
+.brand-name {
+  color: #D42401;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 800;
+  word-wrap: break-word;
+}
+
